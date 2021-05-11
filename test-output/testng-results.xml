@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="41198" started-at="2021-05-11T12:49:20Z" finished-at="2021-05-11T12:50:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="41198" started-at="2021-05-11T12:49:20Z" finished-at="2021-05-11T12:50:01Z">
+      <class name="org.com.test.LoginWindow">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.com.test.LoginWindow@46d56d67]" name="setUp" is-config="true" duration-ms="17663" started-at="2021-05-11T12:49:20Z" finished-at="2021-05-11T12:49:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyValidationMessage()[pri:0, instance:org.com.test.LoginWindow@46d56d67]" name="verifyValidationMessage" duration-ms="3292" started-at="2021-05-11T12:49:38Z" finished-at="2021-05-11T12:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidationMessage -->
+        <test-method status="PASS" signature="verifyValidationMessageWhenPasswordMissing()[pri:1, instance:org.com.test.LoginWindow@46d56d67]" name="verifyValidationMessageWhenPasswordMissing" duration-ms="5858" started-at="2021-05-11T12:49:41Z" finished-at="2021-05-11T12:49:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidationMessageWhenPasswordMissing -->
+        <test-method status="PASS" signature="verifyValidationMessageWhenInvalidEmail()[pri:3, instance:org.com.test.LoginWindow@46d56d67]" name="verifyValidationMessageWhenInvalidEmail" duration-ms="2476" started-at="2021-05-11T12:49:47Z" finished-at="2021-05-11T12:49:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidationMessageWhenInvalidEmail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.com.test.LoginWindow@46d56d67]" name="tearDown" is-config="true" duration-ms="11848" started-at="2021-05-11T12:49:49Z" finished-at="2021-05-11T12:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.com.test.LoginWindow -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
